@@ -31,7 +31,18 @@ html, body {
   margin-top: 0px;
 }
 
+#profile .panel-heading {
+  height: 80px;
+}
+
+#profile .panel-body {
+  padding-top: 32px;
+}
+
 #profile-picture {
+  position: absolute;
+  top: 8px;
+  left: 34%;
   max-width: 100px;
   max-height: 100px;
   display: inline-block;
